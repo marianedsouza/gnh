@@ -36,6 +36,17 @@ import {
   Book
 } from 'lucide-react';
 
+import LogoGrupoNH from './assets/LOGO Grupo NH.png';
+import LogoSynaptEssence from './assets/LOGO SynaptEssence.png';
+import LogoODespertar from './assets/LOGO o despertar.png';
+import LogoConscienciaViva from './assets/LOGO Escola da Consciencia VIVA.png';
+import LogoRazga from './assets/RASGA LOGO-1.png';
+import LogoPodRazgar from './assets/LOGO POD RAZGAR.png';
+import LogoInstitutoNH from './assets/LOGO Instituto NH.png';
+import LogoHorizonteMulher from './assets/LOGO Horizonte MULHER.png';
+import LogoMundialBusiness from './assets/LOGO Mundial BUSINESS.png';
+import ImgGnh1 from './assets/gnh (1).jpeg';
+
 
 
 /* -------------------------------------------------------------------------- */
@@ -544,7 +555,7 @@ export default function App() {
       <header className="sticky top-0 w-full bg-[#FCFAF5]/60 backdrop-blur-xl border-b border-[#DFC373]/20 shadow-[0_4px_30px_rgba(156,119,47,0.04)] z-50 transition-all duration-300">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => scrollTo('hero')}>
-            <img src="/LOGO_Grupo_NH.png" alt="Logo Grupo Novo Horizonte" className="h-14 sm:h-16 w-auto object-contain py-1" />
+            <img src={LogoGrupoNH} alt="Logo Grupo Novo Horizonte" className="h-14 sm:h-16 w-auto object-contain py-1" />
           </div>
 
           <nav className="hidden lg:flex items-center gap-8 text-xs uppercase tracking-widest font-semibold text-[#0F213A]/80">
@@ -617,7 +628,7 @@ export default function App() {
                 className="w-full rounded-[2rem] overflow-hidden shadow-[0_15px_40px_rgba(156,119,47,0.15)] border-4 border-white"
                 animate={{ y: [0, -10, 0] }} transition={{ repeat: Infinity, duration: 6, ease: "easeInOut" }}
               >
-                 <img src="/gnh (1).jpeg" className="w-full h-auto object-cover" alt="Comunidade unida de mulheres no MS" />
+                 <img src={ImgGnh1} className="w-full h-auto object-cover" alt="Comunidade unida de mulheres no MS" />
               </motion.div>
             </div>
           </div>
@@ -639,7 +650,7 @@ export default function App() {
               className="p-4 rounded-xl border border-[#DFC373]/20 bg-white/70 backdrop-blur-md hover:bg-white hover:border-[#DFC373]/50 hover:scale-[1.02] shadow-[0_4px_24px_rgba(156,119,47,0.04)] hover:shadow-[0_8px_32px_rgba(156,119,47,0.1)] transition-all duration-300 flex flex-col justify-between items-center text-center group cursor-pointer"
             >
               <div className="flex-1 flex items-center justify-center min-h-[110px] sm:min-h-[130px] lg:min-h-[140px]">
-                <img src="/LOGO_Grupo_NH.png" alt="Grupo Novo Horizonte Logo" className="h-14 sm:h-16 lg:h-18 w-auto max-w-full object-contain group-hover:scale-105 transition-transform duration-300" />
+                <img src={LogoGrupoNH} alt="Grupo Novo Horizonte Logo" className="h-14 sm:h-16 lg:h-18 w-auto max-w-full object-contain group-hover:scale-105 transition-transform duration-300" />
               </div>
               <span className="text-[10px] font-bold tracking-widest text-[#0C223F] uppercase mt-3">Grupo NH</span>
               <span className="text-[10px] text-[#0F213A]/60 font-semibold">Núcleo Integrador</span>
@@ -651,7 +662,7 @@ export default function App() {
               className="p-4 rounded-xl border border-[#DFC373]/20 bg-white/70 backdrop-blur-md hover:bg-white hover:border-[#DFC373]/50 hover:scale-[1.02] shadow-[0_4px_24px_rgba(156,119,47,0.04)] hover:shadow-[0_8px_32px_rgba(156,119,47,0.1)] transition-all duration-300 flex flex-col justify-between items-center text-center group cursor-pointer"
             >
               <div className="flex-1 flex items-center justify-center min-h-[110px] sm:min-h-[130px] lg:min-h-[140px]">
-                <img src="/LOGO_SynaptEssence.png" alt="Synapt Essence Logo" className="h-14 sm:h-16 lg:h-18 w-auto max-w-full object-contain group-hover:scale-105 transition-transform duration-300" />
+                <img src={LogoSynaptEssence} alt="Synapt Essence Logo" className="h-14 sm:h-16 lg:h-18 w-auto max-w-full object-contain group-hover:scale-105 transition-transform duration-300" />
               </div>
               <span className="text-[10px] font-bold tracking-widest text-[#0C223F] uppercase mt-3">Synapt Essence</span>
               <span className="text-[10px] text-[#0F213A]/60 font-semibold">Desenv. Humano</span>
@@ -663,7 +674,7 @@ export default function App() {
               className="p-4 rounded-xl border border-[#DFC373]/20 bg-white/70 backdrop-blur-md hover:bg-white hover:border-[#DFC373]/50 hover:scale-[1.02] shadow-[0_4px_24px_rgba(156,119,47,0.04)] hover:shadow-[0_8px_32px_rgba(156,119,47,0.1)] transition-all duration-300 flex flex-col justify-between items-center text-center group cursor-pointer"
             >
               <div className="flex-1 flex items-center justify-center min-h-[110px] sm:min-h-[130px] lg:min-h-[140px]">
-                <img src="/LOGO_o_despertar.png" alt="O Despertar Logo" className="h-14 sm:h-16 lg:h-18 w-auto max-w-full object-contain group-hover:scale-105 transition-transform duration-300" />
+                <img src={LogoODespertar} alt="O Despertar Logo" className="h-14 sm:h-16 lg:h-18 w-auto max-w-full object-contain group-hover:scale-105 transition-transform duration-300" />
               </div>
               <span className="text-[10px] font-bold tracking-widest text-[#0C223F] uppercase mt-3">O Despertar</span>
               <span className="text-[10px] text-[#0F213A]/60 font-semibold">Mentoria Consciência</span>
@@ -675,7 +686,7 @@ export default function App() {
               className="p-4 rounded-xl border border-[#DFC373]/20 bg-white/70 backdrop-blur-md hover:bg-white hover:border-[#DFC373]/50 hover:scale-[1.02] shadow-[0_4px_24px_rgba(156,119,47,0.04)] hover:shadow-[0_8px_32px_rgba(156,119,47,0.1)] transition-all duration-300 flex flex-col justify-between items-center text-center group cursor-pointer"
             >
               <div className="flex-1 flex items-center justify-center min-h-[110px] sm:min-h-[130px] lg:min-h-[140px]">
-                <img src="/LOGO_Escola_da_Consciencia_VIVA.png" alt="Escola da Consciência Viva Logo" className="h-14 sm:h-16 lg:h-18 w-auto max-w-full object-contain group-hover:scale-105 transition-transform duration-300" />
+                <img src={LogoConscienciaViva} alt="Escola da Consciência Viva Logo" className="h-14 sm:h-16 lg:h-18 w-auto max-w-full object-contain group-hover:scale-105 transition-transform duration-300" />
               </div>
               <span className="text-[10px] font-bold tracking-widest text-[#0C223F] uppercase mt-3">Consciência Viva</span>
               <span className="text-[10px] text-[#0F213A]/60 font-semibold">Escola de Líderes</span>
@@ -687,7 +698,7 @@ export default function App() {
               className="p-4 rounded-xl border border-[#DFC373]/20 bg-white/70 backdrop-blur-md hover:bg-white hover:border-[#DFC373]/50 hover:scale-[1.02] shadow-[0_4px_24px_rgba(156,119,47,0.04)] hover:shadow-[0_8px_32px_rgba(156,119,47,0.1)] transition-all duration-300 flex flex-col justify-between items-center text-center group cursor-pointer"
             >
               <div className="flex-1 flex items-center justify-center min-h-[110px] sm:min-h-[130px] lg:min-h-[140px]">
-                <img src="/RASGA_LOGO-1.png" alt="Rázga Logo" className="h-[120px] sm:h-[135px] lg:h-[145px] max-w-full w-auto object-contain group-hover:scale-105 transition-transform duration-300" />
+                <img src={LogoRazga} alt="Rázga Logo" className="h-[120px] sm:h-[135px] lg:h-[145px] max-w-full w-auto object-contain group-hover:scale-105 transition-transform duration-300" />
               </div>
               <span className="text-[10px] font-bold tracking-widest text-[#0C223F] uppercase mt-3">Rázga</span>
               <span className="text-[10px] text-[#0F213A]/60 font-semibold">Rompendo Silêncio</span>
@@ -699,7 +710,7 @@ export default function App() {
               className="p-4 rounded-xl border border-[#DFC373]/20 bg-white/70 backdrop-blur-md hover:bg-white hover:border-[#DFC373]/50 hover:scale-[1.02] shadow-[0_4px_24px_rgba(156,119,47,0.04)] hover:shadow-[0_8px_32px_rgba(156,119,47,0.1)] transition-all duration-300 flex flex-col justify-between items-center text-center group cursor-pointer"
             >
               <div className="flex-1 flex items-center justify-center min-h-[110px] sm:min-h-[130px] lg:min-h-[140px]">
-                <img src="/LOGO_POD_RAZGAR.png" alt="Pod Rázgar Logo" className="h-[38px] sm:h-[44px] w-auto object-contain group-hover:scale-105 transition-transform duration-300" />
+                <img src={LogoPodRazgar} alt="Pod Rázgar Logo" className="h-[38px] sm:h-[44px] w-auto object-contain group-hover:scale-105 transition-transform duration-300" />
               </div>
               <span className="text-[10px] font-bold tracking-widest text-[#0C223F] uppercase mt-3">Pod Rázgar</span>
               <span className="text-[10px] text-[#0F213A]/60 font-semibold">Voz & Transparência</span>
@@ -711,7 +722,7 @@ export default function App() {
               className="p-4 rounded-xl border border-[#DFC373]/20 bg-white/70 backdrop-blur-md hover:bg-white hover:border-[#DFC373]/50 hover:scale-[1.02] shadow-[0_4px_24px_rgba(156,119,47,0.04)] hover:shadow-[0_8px_32px_rgba(156,119,47,0.1)] transition-all duration-300 flex flex-col justify-between items-center text-center group cursor-pointer"
             >
               <div className="flex-1 flex items-center justify-center min-h-[110px] sm:min-h-[130px] lg:min-h-[140px]">
-                <img src="/LOGO_Instituto_NH.png" alt="Instituto NH Logo" className="h-14 sm:h-16 lg:h-18 w-auto max-w-full object-contain group-hover:scale-105 transition-transform duration-300" />
+                <img src={LogoInstitutoNH} alt="Instituto NH Logo" className="h-14 sm:h-16 lg:h-18 w-auto max-w-full object-contain group-hover:scale-105 transition-transform duration-300" />
               </div>
               <span className="text-[10px] font-bold tracking-widest text-[#0C223F] uppercase mt-3">Instituto NH</span>
               <span className="text-[10px] text-[#0F213A]/60 font-semibold">Ação Regenerativa</span>
@@ -723,7 +734,7 @@ export default function App() {
               className="p-4 rounded-xl border border-[#DFC373]/20 bg-white/70 backdrop-blur-md hover:bg-white hover:border-[#DFC373]/50 hover:scale-[1.02] shadow-[0_4px_24px_rgba(156,119,47,0.04)] hover:shadow-[0_8px_32px_rgba(156,119,47,0.1)] transition-all duration-300 flex flex-col justify-between items-center text-center group cursor-pointer"
             >
               <div className="flex-1 flex items-center justify-center min-h-[110px] sm:min-h-[130px] lg:min-h-[140px]">
-                <img src="/LOGO_Horizonte_MULHER.png" alt="Horizonte Mulher Logo" className="h-14 sm:h-16 lg:h-18 w-auto max-w-full object-contain group-hover:scale-105 transition-transform duration-300" />
+                <img src={LogoHorizonteMulher} alt="Horizonte Mulher Logo" className="h-14 sm:h-16 lg:h-18 w-auto max-w-full object-contain group-hover:scale-105 transition-transform duration-300" />
               </div>
               <span className="text-[10px] font-bold tracking-widest text-[#0C223F] uppercase mt-3">Horizonte Mulher</span>
               <span className="text-[10px] text-[#0F213A]/60 font-semibold">Sustento Familiar</span>
@@ -735,7 +746,7 @@ export default function App() {
               className="p-4 rounded-xl border border-[#DFC373]/20 bg-white/70 backdrop-blur-md hover:bg-white hover:border-[#DFC373]/50 hover:scale-[1.02] shadow-[0_4px_24px_rgba(156,119,47,0.04)] hover:shadow-[0_8px_32px_rgba(156,119,47,0.1)] transition-all duration-300 flex flex-col justify-between items-center text-center group cursor-pointer"
             >
               <div className="flex-1 flex items-center justify-center min-h-[110px] sm:min-h-[130px] lg:min-h-[140px]">
-                <img src="/LOGO_Mundial_BUSINESS.png" alt="Mundial Business Logo" className="h-14 sm:h-16 lg:h-18 w-auto max-w-full object-contain group-hover:scale-105 transition-transform duration-300" />
+                <img src={LogoMundialBusiness} alt="Mundial Business Logo" className="h-14 sm:h-16 lg:h-18 w-auto max-w-full object-contain group-hover:scale-105 transition-transform duration-300" />
               </div>
               <span className="text-[10px] font-bold tracking-widest text-[#0C223F] uppercase mt-3">Mundial Business</span>
               <span className="text-[10px] text-[#0F213A]/60 font-semibold">Autonomia Financeira</span>
@@ -851,7 +862,7 @@ export default function App() {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] rounded-full border border-[#DFC373]/08 [transform:translateZ(-30px)]" />
 
             {/* Center Node — always auto-rotating */}
-            <GearNode type="center" rotation={rotateCenter} logoUrl="/LOGO_Grupo_NH.png" onClick={() => scrollTo('pilares')} isMobile={true} />
+            <GearNode type="center" rotation={rotateCenter} logoUrl={LogoGrupoNH} onClick={() => scrollTo('pilares')} isMobile={true} />
 
             {/* Outer Nodes — always auto-rotating */}
             <GearNode
@@ -865,7 +876,7 @@ export default function App() {
               distance={D}
               initialRot={15}
               textOpacity={textOpacity}
-              logoUrl="/LOGO_SynaptEssence.png"
+              logoUrl={LogoSynaptEssence}
               onClick={() => { setActivePillarTab('p1'); scrollTo('pilares'); }}
               isMobile={true}
             />
@@ -880,7 +891,7 @@ export default function App() {
               distance={D}
               initialRot={15}
               textOpacity={textOpacity}
-              logoUrl="/LOGO_o_despertar.png"
+              logoUrl={LogoODespertar}
               onClick={() => { setActivePillarTab('p2'); scrollTo('pilares'); }}
               isMobile={true}
             />
@@ -895,7 +906,7 @@ export default function App() {
               distance={D}
               initialRot={0}
               textOpacity={textOpacity}
-              logoUrl="/LOGO_Instituto_NH.png"
+              logoUrl={LogoInstitutoNH}
               onClick={() => { setActivePillarTab('p3'); scrollTo('pilares'); }}
               isMobile={true}
             />
@@ -910,7 +921,7 @@ export default function App() {
               distance={D}
               initialRot={0}
               textOpacity={textOpacity}
-              logoUrl="/LOGO_Mundial_BUSINESS.png"
+              logoUrl={LogoMundialBusiness}
               onClick={() => { setActivePillarTab('p4'); scrollTo('pilares'); }}
               isMobile={true}
             />
@@ -1089,7 +1100,7 @@ export default function App() {
                 <div className="lg:col-span-4 flex flex-col justify-between text-left space-y-6 lg:space-y-0">
                   <div>
                     <div className="h-24 flex items-center mb-4">
-                      <img src="/LOGO_SynaptEssence.png" alt="Synapt Essence Logo" className="h-24 w-auto object-contain" referrerPolicy="no-referrer" />
+                      <img src={LogoSynaptEssence} alt="Synapt Essence Logo" className="h-24 w-auto object-contain" referrerPolicy="no-referrer" />
                     </div>
                     <span className="text-[10px] sm:text-xs font-mono font-bold text-[#9C772F] tracking-[0.2em] uppercase block mb-2">PILAR 1 — SER</span>
                     <h3 className="text-2xl sm:text-3xl font-serif font-bold text-[#0B1B33]">SYNAPT ESSENCE®</h3>
@@ -1181,7 +1192,7 @@ export default function App() {
                           <span className="p-1 px-2.5 rounded bg-[#9C772F]/10 text-[#9C772F] text-[10px] tracking-widest font-black uppercase">CONSCIÊNCIA PELA EXPANSÃO</span>
                           <span className="text-[10px] text-[#0F213A]/50 block mt-1">Atua através da:</span>
                         </div>
-                        <img src="/LOGO_o_despertar.png" alt="O Despertar Logo" className="h-14 sm:h-18 w-auto object-contain" referrerPolicy="no-referrer" />
+                        <img src={LogoODespertar} alt="O Despertar Logo" className="h-14 sm:h-18 w-auto object-contain" referrerPolicy="no-referrer" />
                       </div>
                       <h4 className="font-serif font-bold text-lg text-[#0B1B33] mb-1">DESPERTAR ESPIRITUAL®</h4>
                       <span className="text-xs uppercase font-semibold text-[#0F213A]/50 tracking-wider block mb-3">ESCOLA DA CONSCIÊNCIA VIVA®</span>
@@ -1214,7 +1225,7 @@ export default function App() {
 
                       {/* COMPLEMENTARY SCHOOL */}
                       <div className="p-4 rounded-xl bg-gradient-to-br from-[#DFC373]/8 to-[#9C772F]/3 border border-[#DFC373]/25 flex flex-col items-center text-center gap-2 shadow-sm transition-all duration-300 hover:shadow-md">
-                        <img src="/LOGO_Escola_da_Consciencia_VIVA.png" alt="Escola da Consciência Viva Logo" className="h-10 w-auto object-contain shrink-0" referrerPolicy="no-referrer" />
+                        <img src={LogoConscienciaViva} alt="Escola da Consciência Viva Logo" className="h-10 w-auto object-contain shrink-0" referrerPolicy="no-referrer" />
                         <div className="flex flex-col items-center">
                           <div className="text-[11px] font-black text-[#0B1B33] uppercase tracking-wide">ESCOLA DA CONSCIÊNCIA VIVA®</div>
                           <p className="text-[11px] text-[#0F213A]/85 font-semibold max-w-sm mb-2">
@@ -1248,7 +1259,7 @@ export default function App() {
                           <span className="p-1 px-2.5 rounded bg-[#9C772F]/10 text-[#9C772F] text-[10px] tracking-widest font-black uppercase">CONSCIÊNCIA PELA RUPTURA</span>
                           <span className="text-[10px] text-[#0F213A]/50 block mt-1">Atua através do:</span>
                         </div>
-                        <img src="/RASGA_LOGO-1.png" alt="Rázga Logo" className="h-9 w-auto object-contain" referrerPolicy="no-referrer" />
+                        <img src={LogoRazga} alt="Rázga Logo" className="h-9 w-auto object-contain" referrerPolicy="no-referrer" />
                       </div>
                       <h4 className="font-serif font-bold text-lg text-[#0B1B33] mb-1">RÁZGA®</h4>
                       <span className="text-xs uppercase font-semibold text-[#0F213A]/50 tracking-wider block mb-3 font-mono">POD RÁZGAR®</span>
@@ -1293,7 +1304,7 @@ export default function App() {
 
                       {/* COMPLEMENTARY PROJECT */}
                       <div className="p-4 rounded-xl bg-gradient-to-br from-[#DFC373]/8 to-[#9C772F]/3 border border-[#DFC373]/25 flex flex-col items-center text-center gap-2 shadow-sm transition-all duration-300 hover:shadow-md">
-                        <img src="/LOGO_POD_RAZGAR.png" alt="Pod Rázgar Logo" className="h-10 w-auto object-contain shrink-0" referrerPolicy="no-referrer" />
+                        <img src={LogoPodRazgar} alt="Pod Rázgar Logo" className="h-10 w-auto object-contain shrink-0" referrerPolicy="no-referrer" />
                         <div className="flex flex-col items-center">
                           <div className="text-[11px] font-black text-[#0B1B33] uppercase tracking-wide">Pod Rázgar®</div>
                           <p className="text-[11px] text-[#0F213A]/85 font-semibold max-w-sm italic font-serif leading-relaxed">
@@ -1324,7 +1335,7 @@ export default function App() {
                 <div className="lg:col-span-4 flex flex-col justify-between text-left space-y-6 lg:space-y-0">
                   <div>
                     <div className="h-24 flex items-center mb-4">
-                      <img src="/LOGO_Instituto_NH.png" alt="Instituto Novo Horizonte Logo" className="h-[64px] w-auto object-contain" referrerPolicy="no-referrer" />
+                      <img src={LogoInstitutoNH} alt="Instituto Novo Horizonte Logo" className="h-[64px] w-auto object-contain" referrerPolicy="no-referrer" />
                     </div>
                     <span className="text-[10px] sm:text-xs font-mono font-bold text-[#9C772F] tracking-[0.2em] uppercase block mb-2">PILAR 3 — IMPACTO SOCIAL</span>
                     <h3 className="text-2xl sm:text-3xl font-serif font-bold text-[#0B1B33]">INSTITUTO NOVO HORIZONTE®</h3>
@@ -1378,7 +1389,7 @@ export default function App() {
                       <div>
                         <div className="flex items-center gap-4 flex-wrap mb-4">
                           <span className="p-1 px-2.5 rounded bg-[#9C772F] text-white text-[10px] tracking-widest font-black uppercase">PROJETO ESTRUTURANTE</span>
-                          <img src="/LOGO_Horizonte_MULHER.png" alt="Horizonte Mulher Logo" className="h-14 sm:h-18 w-auto object-contain" referrerPolicy="no-referrer" />
+                          <img src={LogoHorizonteMulher} alt="Horizonte Mulher Logo" className="h-14 sm:h-18 w-auto object-contain" referrerPolicy="no-referrer" />
                         </div>
                         <h4 className="font-serif font-bold text-lg text-[#0B1B33] mb-1">Horizonte Mulher®</h4>
                         <p className="text-xs sm:text-sm text-[#0F213A]/85 font-medium leading-relaxed">
@@ -1431,7 +1442,7 @@ export default function App() {
                 <div className="lg:col-span-4 flex flex-col justify-between text-left space-y-6 lg:space-y-0">
                   <div>
                     <div className="h-24 flex items-center mb-4">
-                      <img src="/LOGO_Mundial_BUSINESS.png" alt="Mundial Business Logo" className="h-[84px] w-auto object-contain" referrerPolicy="no-referrer" />
+                      <img src={LogoMundialBusiness} alt="Mundial Business Logo" className="h-[84px] w-auto object-contain" referrerPolicy="no-referrer" />
                     </div>
                     <span className="text-[10px] sm:text-xs font-mono font-bold text-[#9C772F] tracking-[0.2em] uppercase block mb-2">PILAR 4 — TERRITÓRIO</span>
                     <h3 className="text-2xl sm:text-3xl font-serif font-bold text-[#0B1B33]">MUNDIAL BUSINESS®</h3>
@@ -1841,7 +1852,7 @@ export default function App() {
       <section id="aliancas" className="relative w-full py-24 px-6 sm:px-12 text-white z-10 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/gnh (1).jpeg" 
+            src={ImgGnh1} 
             alt="Fundo Pantanal MS" 
             className="w-full h-full object-cover grayscale-[20%] opacity-40 mix-blend-overlay"
             referrerPolicy="no-referrer"
