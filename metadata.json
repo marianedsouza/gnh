@@ -1,0 +1,8 @@
+{
+  "name": "Grupo Novo Horizonte",
+  "description": "Premium institutional portal detailing the deep systemic integration of human development, consciousness expansion, social impact, and economic regeneration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
