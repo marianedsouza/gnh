@@ -46,6 +46,7 @@ import LogoInstitutoNH from './assets/LOGO Instituto NH.png';
 import LogoHorizonteMulher from './assets/LOGO Horizonte MULHER.png';
 import LogoMundialBusiness from './assets/LOGO Mundial BUSINESS.png';
 import ImgGnh1 from './assets/gnh (1).jpeg';
+import HeroImage from './assets/hero.png';
 
 
 
@@ -628,7 +629,7 @@ export default function App() {
                 className="w-full rounded-[2rem] overflow-hidden shadow-[0_15px_40px_rgba(156,119,47,0.15)] border-4 border-white"
                 animate={{ y: [0, -10, 0] }} transition={{ repeat: Infinity, duration: 6, ease: "easeInOut" }}
               >
-                 <img src={ImgGnh1} className="w-full h-auto object-cover" alt="Comunidade unida de mulheres no MS" />
+                 <img src={HeroImage} className="w-full h-auto object-cover" alt="Hero Image" />
               </motion.div>
             </div>
           </div>
