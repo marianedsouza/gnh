@@ -626,7 +626,7 @@ export default function App() {
           <div className="lg:col-span-6 relative flex justify-center items-center w-full order-1 lg:order-2 mb-10 lg:mb-0">
             <div className="relative w-full max-w-[600px] mx-auto lg:ml-auto">
               <motion.div
-                className="w-full rounded-[2rem] overflow-hidden shadow-[0_15px_40px_rgba(156,119,47,0.15)] border-4 border-white"
+                className="w-full"
                 animate={{ y: [0, -10, 0] }} transition={{ repeat: Infinity, duration: 6, ease: "easeInOut" }}
               >
                  <img src={HeroImage} className="w-full h-auto object-cover" alt="Hero Image" />
