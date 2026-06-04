@@ -1393,9 +1393,20 @@ export default function App() {
                           <img src={LogoHorizonteMulher} alt="Horizonte Mulher Logo" className="h-14 sm:h-18 w-auto object-contain" referrerPolicy="no-referrer" />
                         </div>
                         <h4 className="font-serif font-bold text-lg text-[#0B1B33] mb-1">Horizonte Mulher®</h4>
-                        <p className="text-xs sm:text-sm text-[#0F213A]/85 font-medium leading-relaxed">
+                        <p className="text-xs sm:text-sm text-[#0F213A]/85 font-medium leading-relaxed mb-4">
                           Uma frente especializada que atua como vetor estruturante para restaurar núcleos familiares por meio da autonomia produtiva feminina.
                         </p>
+                      </div>
+                      <div className="flex justify-start">
+                        <a
+                          href="https://horizonte-mulher.vercel.app/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-gradient-to-r from-[#0B1B33] to-[#122A4E] text-white text-[10px] sm:text-xs font-bold uppercase tracking-wider transition-all hover:shadow-md active:scale-[0.98] cursor-pointer"
+                        >
+                          Visitar Horizonte Mulher
+                          <ArrowUpRight className="w-3.5 h-3.5" />
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -1491,6 +1502,32 @@ export default function App() {
                         <span className="text-[#9C772F] font-black text-[10px]">07</span>
                         <span>Projetos Territoriais</span>
                       </div>
+                    </div>
+                  </div>
+
+                  <div className="p-6 rounded-xl border border-[#DFC373]/15 bg-[#FCFCFB]/90 shadow-sm">
+                    <h4 className="text-[#9C772F] font-bold text-xs uppercase tracking-widest mb-4 flex items-center gap-2">
+                      <Sparkles className="w-4 h-4 text-[#DFC373]" /> SERVIÇOS MB
+                    </h4>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                      <a
+                        href="https://mundialb-mushroom.netlify.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-center gap-1.5 px-4 py-3 rounded-lg bg-gradient-to-r from-[#0B1B33] to-[#122A4E] text-white text-[10px] sm:text-xs font-bold uppercase tracking-wider transition-all hover:shadow-md active:scale-[0.98] cursor-pointer text-center"
+                      >
+                        1 - Agroprodução
+                        <ArrowUpRight className="w-3.5 h-3.5" />
+                      </a>
+                      <a
+                        href="https://mundialb.netlify.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-center gap-1.5 px-4 py-3 rounded-lg border border-[#DFC373] hover:bg-[#DFC373]/5 text-[#9C772F] text-[10px] sm:text-xs font-bold uppercase tracking-wider transition-all hover:shadow-md active:scale-[0.98] cursor-pointer text-center"
+                      >
+                        2 - Treinamento e Consultoria
+                        <ArrowUpRight className="w-3.5 h-3.5" />
+                      </a>
                     </div>
                   </div>
 
