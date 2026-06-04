@@ -1418,15 +1418,15 @@ export default function App() {
                       <div className="flex flex-col items-center bg-white border border-[#DFC373]/15 p-3 rounded-lg w-full md:w-auto text-center shadow-sm">
                         <span className="text-xs font-bold text-[#0B1B33]">1 mulher fortalecida</span>
                       </div>
-                      <div className="text-[#DFC373] text-lg font-black shrink-0 rotate-90 md:rotate-0">↓</div>
+                      <div className="text-[#DFC373] text-lg font-black shrink-0 rotate-90 md:rotate-0">→</div>
                       <div className="flex flex-col items-center bg-white border border-[#DFC373]/15 p-3 rounded-lg w-full md:w-auto text-center shadow-sm">
                         <span className="text-xs font-bold text-[#0B1B33]">2 ou mais filhos impactados</span>
                       </div>
-                      <div className="text-[#DFC373] text-lg font-black shrink-0 rotate-90 md:rotate-0">↓</div>
+                      <div className="text-[#DFC373] text-lg font-black shrink-0 rotate-90 md:rotate-0">→</div>
                       <div className="flex flex-col items-center bg-white border border-[#DFC373]/15 p-3 rounded-lg w-full md:w-auto text-center shadow-sm">
                         <span className="text-xs font-bold text-[#0B1B33]">1 família fortalecida</span>
                       </div>
-                      <div className="text-[#DFC373] text-lg font-black shrink-0 rotate-90 md:rotate-0">↓</div>
+                      <div className="text-[#DFC373] text-lg font-black shrink-0 rotate-90 md:rotate-0">→</div>
                       <div className="flex flex-col items-center bg-[#0B1B33] text-[#DFC373] p-3 rounded-lg w-full md:w-auto text-center shadow-[#0B1B33]/10 shadow-md">
                         <span className="text-xs font-black uppercase tracking-wider">comunidade fortalecida</span>
                       </div>
